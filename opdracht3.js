@@ -1,14 +1,13 @@
 //Naam
-function hallo(naam){ 
+function Hallo(naam){ 
     document.write('<br>Hallo' + prompt('Wat is je naam?'));
  }
-var NaamPersoon='Jan';
- hallo(NaamPersoon);
-
+var NaamPersoon;
+ Hallo(NaamPersoon);
 
 //Leeftijd
 function Leeftijd(leeftijd){ 
     document.write('<br>Je leeftijd is' + prompt('Wat is je leeftijd?'));
  }
-var LeeftijdPersoon='16';
+var LeeftijdPersoon;
  Leeftijd(LeeftijdPersoon);
