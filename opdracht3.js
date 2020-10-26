@@ -1,4 +1,5 @@
-antwoord=prompt("Wat is je naam?");
+//Naam
+/*antwoord=prompt("Wat is je naam?");
 
 function hallo(naam){ 
     document.write('Hallo'+naam+'!<br>');
@@ -7,10 +8,15 @@ var NaamPersoon='Jan';
  hallo(NaamPersoon);
 
 
- antwoord=prompt("Wat is je leeftijd?");
+//Leeftijd
+antwoord=prompt("Wat is je leeftijd?");
 
-function leeftijd(leeftijd){ 
-    document.write('Je bent'+leeftijd+'jaar oud!<br>');
+function Leeftijd(leeftijd){ 
+    document.write('Je leeftijd is'+leeftijd+'jaar<br>');
  }
 var LeeftijdPersoon='16';
- leeftijd(LeeftijdPersoon);
+ Leeftijd(LeeftijdPersoon);*/
+
+
+ document.write('<br>Hallo' + prompt('Wat is je naam?'));
+ document.write('<br>Je leeftijd is' + prompt('Wat is je leeftijd?'));
